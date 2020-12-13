@@ -15,7 +15,7 @@ ______|_________|_________|______ GND
 ```
 Multiple PJ107s can be connected in parallel on the same [SoftwareBitBang](https://github.com/gioblu/PJON/tree/master/src/strategies/SoftwareBitBang) bus sharing the same power, ground and data connection. Each PJ107 is running an instance of the PJON protocol stack with its own configurable device id, so many can coexist on the same medium.
 
-PJ107 has been engineered with the strong feeling that in the future "smart homes" will not necessarily host a multitude of inefficient embedded real-time operative systems in whatever "thing" while exposing vulnerabilities out of the physical boundaries of houses. Otherwise, more probably, they will host many simple less power-hungry microcontrollers connected to a wired communication bus.
+PJ107 has been engineered with the strong feeling that in the future "smart homes" will not necessarily host an embedded real-time operative systems in whatever "thing" and expose vulnerabilities out of their physical boundaries. Otherwise, more probably, they will host many less power-hungry microcontrollers connected to a wired communication bus.
 
 
 ### Software
