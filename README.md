@@ -2,7 +2,7 @@
 ## PJ107
 <img src="images/PJ107-front.jpg" style="display: inline-block;" width="400"><img src="images/PJ107-back.jpg" style="display: inline-block;" width="400">
 
-The PJ107 module is a 9.8x13.1mm open-source, stand-alone, programmable PIR sensor based on ATtiny85 with [PJON](https://github.com/gioblu/PJON/) over [PJDL](https://github.com/gioblu/PJON/blob/master/src/strategies/SoftwareBitBang/specification) networking. It needs only 3 pins (PJDL, 5v, GND) to operate transmitting samples and receiving incoming configuration on the same PJON IO pin.
+The PJ107 module is a 25x33.4mm open-source, stand-alone, programmable PIR sensor based on ATtiny85 with [PJON](https://github.com/gioblu/PJON/) over [PJDL](https://github.com/gioblu/PJON/blob/master/src/strategies/SoftwareBitBang/specification) networking. It needs only 3 pins (PJDL, 5v, GND) to operate transmitting samples and receiving incoming configuration on the same PJON IO pin.
 
 ```cpp  
  _______   _______   _______
